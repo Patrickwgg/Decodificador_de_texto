@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/logo_alura.css">
+    <link rel="stylesheet" href="CSS/button.css">
+    <link rel="stylesheet" href="CSS/base_decodificador.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo__alura" src="Imagens/vetor-a-logo.png" alt="logo-alura">
+    </header>
+    <main>
+        <div>
+            <textarea class="texto__cru"></textarea>
+            <div class="alert">
+                <img class="img__alert" src="Imagens/circlue_exclamation.png" alt="icon-mensagem-alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons__container">
+            <button class="button-um">Criptografar</button>
+            <button class="button-dois">Descriptografar</button>
+            </div>
+        </div>
+        <div class="area__resultado__decodificador">
+                <div class="img__decodificador">
+                    <img class="img_pessoa_sentada" src="Imagens/imagem-pessoa-sentada.jpg" alt="imagem-pessoa-sentada">
+                    <p class="msg__not__found">Nenhuma mensagem encontrada</p>
+                    <p class="alert__digite__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="text__decodificador__area">
+                    <p class="texto__decodificado disabled"></p>
+                    <button class="button-tres disabled">Copiar</button>
+                </div>
+        </div>
+    </main>
+    <script src="./JS/decodificador.js"></script>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
