@@ -1,1 +1,0 @@
-# Decodificador_de_texto
